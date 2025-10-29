@@ -23,7 +23,7 @@ function App() {
 
   async function fetchSelectedStateData(state) {
     const { data } = await axios.get(
-      `https://mgnrega-backend-twfc.onrender.com//data/${state}`
+      `https://mgnrega-backend-twfc.onrender.com/data/${state}`
     );
     setStateData(data);
   }
